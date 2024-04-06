@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+   
+    
+}
+
+
+.banner{
+    background-image: url(banner1.jpg);
+    background-repeat: no-repeat;
+    padding: 200px;
+    background-size: cover;
+    color: rgb(2, 68, 134);
+    overflow:none;
+    
+}
+.card-img-top{
+    height:200px;
+   
+ }
+ .card-text{
+    font-size: 10px;
+ }
+ .card1{
+    width: 400px;
+    
+ }
+ .poster{
+    cursor: pointer;
+ }
+ .box{
+    transition: 1s;
+    border-radius:30px;
+    outline: none;
+    width: 200px;
+    height: 200px;
+}
+img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    
+}
+img{
+    border-radius: 50px;
+
+}
